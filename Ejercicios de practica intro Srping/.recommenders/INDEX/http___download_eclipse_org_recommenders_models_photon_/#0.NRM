@@ -1,0 +1,2467 @@
+oftware License, Version 2.0 ("ASL"). A copy of the ASL is available at 
+http://maven.apache.org/license.html
+. (a local copy can be found 
+here
+)
+maven-ear-plugin 2.6 (Derivative work)
+This software contains the following classes, derived from the maven-ear-plugin-2.6.jar from the Apache Maven project.
+org.eclipse.m2e.wtp.earmodules.AbstractEarModule derived from org.apache.maven.plugin.ear.AbstractEarModule
+org.eclipse.m2e.wtp.namemapping.StandardFileNameMapping derived from org.apache.maven.plugin.ear.output.StandardFileNameMapping
+org.eclipse.m2e.wtp.earmodules.AppClientModule derived from org.apache.maven.plugin.ear.AppClientModule
+org.eclipse.m2e.wtp.earmodules.ArtifactRepository derived from org.apache.maven.plugin.ear.util.ArtifactRepository
+org.eclipse.m2e.wtp.earmodules.ArtifactTypeMappingService derived from org.apache.maven.plugin.ear.util.ArtifactTypeMappingService
+org.eclipse.m2e.wtp.earmodules.EarModule derived from org.apache.maven.plugin.ear.EarModule
+org.eclipse.m2e.wtp.earmodules.EarModuleFactory derived from org.apache.maven.plugin.ear.EarModuleFactory
+org.eclipse.m2e.wtp.earmodules.EarPluginException derived from org.apache.maven.plugin.ear.EarPluginException
+org.eclipse.m2e.wtp.earmodules.EjbClientModule derived from org.apache.maven.plugin.ear.EjbClientModule
+org.eclipse.m2e.wtp.earmodules.EjbModule derived from org.apache.maven.plugin.ear.EjbModule
+org.eclipse.m2e.wtp.earmodules.HarModule derived from org.apache.maven.plugin.ear.HarModule
+org.eclipse.m2e.wtp.earmodules.JarModule derived from org.apache.maven.plugin.ear.JarModule
+org.eclipse.m2e.wtp.earmodules.JbossEarModule derived from org.apache.maven.plugin.ear.JbossEarModule
+org.eclipse.m2e.wtp.earmodules.ParModule derived from org.apache.maven.plugin.ear.ParModule
+org.eclipse.m2e.wtp.earmodules.RarModule derived from org.apache.maven.plugin.ear.RarModule
+org.eclipse.m2e.wtp.earmodules.SarModule derived from org.apache.maven.plugin.ear.SarModule
+org.eclipse.m2e.wtp.earmodules.SecurityRoleKey derived from org.apache.maven.plugin.ear.SecurityRole
+org.eclipse.m2e.wtp.earmodules.UnknownArtifactTypeException derived from org.apache.maven.plugin.ear.UnknownArtifactTypeException
+org.eclipse.m2e.wtp.earmodules.WebModule derived from org.apache.maven.plugin.ear.WebModule
+org.eclipse.m2e.wtp.earmodules.WsrModule derived from org.apache.maven.plugin.ear.WsrModule
+org.eclipse.m2e.wtp.namemapping.AbstractFileNameMapping derived from org.apache.maven.plugin.ear.output.AbstractFileNameMapping
+org.eclipse.m2e.wtp.namemapping.FileNameMapping derived from org.apache.maven.plugin.ear.output.FileNameMapping
+org.eclipse.m2e.wtp.namemapping.FileNameMappingFactory derived from org.apache.maven.plugin.ear.output.FileNameMapping
+org.eclipse.m2e.wtp.namemapping.FullFileNameMapping derived from org.apache.maven.plugin.ear.output.FullFileNameMapping
+org.eclipse.m2e.wtp.namemapping.NoVersionFileNameMapping derived from org.apache.maven.plugin.ear.output.NoVersionFileNameMapping
+Your use of maven-ear-plugin in source or binary code form is subject to the terms and conditions of the The Apache Software License, Version 2.0 ("ASL"). A copy of the ASL is available at 
+http://maven.apache.org/license.html
+. (a local copy can be found 
+here
+)
+Spring Core (Derivative work)
+This software is based in part on the work of The SpringSource on the Spring Core project.
+The org.eclipse.m2e.wtp.internal.AntPathMatcher class is copied from the following class from the Spring Core project :
+org.springframework.util.AntPathMatcher
+Your use of Spring Core in source or binary code form is subject to the terms and conditions of the The Apache Software License, Version 2.0 ("ASL"). A copy of the ASL is available at 
+http://maven.apache.org/license.html
+. (a local copy can be found 
+here
+)
+
+
+>>> org.eclipse.m2e.wtp.jaxrs-1.1.0
+
+About Maven JAX-RS Configurator
+Maven JAX-RS Configurator
+m2e configurator setting the JAX-RS Facet on projects having JAX-RS dependencies
+October 29, 2010
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.m2e.wtp.jaxrs-1.2.0
+
+About Maven JAX-RS Configurator
+Maven JAX-RS Configurator
+m2e configurator setting the JAX-RS Facet on projects having JAX-RS dependencies
+October 29, 2010
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.m2e.wtp.jpa-1.1.0
+
+About Maven JPA Configurator
+Maven JPA Configurator
+m2e configurator setting the JPA Facet on projects having a persistence.xml JPA descriptor
+October 29, 2010
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.m2e.wtp.jpa-1.2.0
+
+About Maven JPA Configurator
+Maven JPA Configurator
+m2e configurator setting the JPA Facet on projects having a persistence.xml JPA descriptor
+October 29, 2010
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.m2e.wtp.jsf-1.1.0
+
+About Maven JSF Configurator
+Maven JSF Configurator
+m2e configurator setting the JSF Facet on projects having JSF Dependencies
+October 29, 2010
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.m2e.wtp.jsf-1.2.0
+
+About Maven JSF Configurator
+Maven JSF Configurator
+m2e configurator setting the JSF Facet on projects having JSF Dependencies
+October 29, 2010
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.m2e.wtp.overlay-1.1.0
+
+About
+About This Content
+October 29, 2010
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+Third Party Content
+The Content includes items that have been sourced from third parties as set out below. If you did not receive this Content directly from the Eclipse Foundation, the following is provided for informational purposes only, and you should look to the Redistributors license for terms and conditions of use.
+Ant (Derivative work)
+This software is based in part on the work of The Apache Software Foundation on the Ant project.
+The class org.eclipse.m2e.wtp.overlay.internal.modulecore.DynamicResourceFilter is derived from the following class from the Ant project :
+org.apache.tools.ant.DirectoryScanner
+Your use of Ant in source or binary code form is subject to the terms and conditions of the The Apache Software License, Version 2.0 ("ASL"). A copy of the ASL is available at 
+http://maven.apache.org/license.html
+. (a local copy can be found 
+here
+)
+
+
+>>> org.eclipse.m2e.wtp.overlay-1.2.0
+
+About
+About This Content
+October 29, 2010
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+Third Party Content
+The Content includes items that have been sourced from third parties as set out below. If you did not receive this Content directly from the Eclipse Foundation, the following is provided for informational purposes only, and you should look to the Redistributors license for terms and conditions of use.
+Ant (Derivative work)
+This software is based in part on the work of The Apache Software Foundation on the Ant project.
+The class org.eclipse.m2e.wtp.overlay.internal.modulecore.DynamicResourceFilter is derived from the following class from the Ant project :
+org.apache.tools.ant.DirectoryScanner
+Your use of Ant in source or binary code form is subject to the terms and conditions of the The Apache Software License, Version 2.0 ("ASL"). A copy of the ASL is available at 
+http://maven.apache.org/license.html
+. (a local copy can be found 
+here
+)
+
+
+>>> org.eclipse.m2e.wtp.overlay.ui-1.1.0
+
+About
+About This Content
+October 29, 2010
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.m2e.wtp.overlay.ui-1.2.0
+
+About
+About This Content
+October 29, 2010
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.bugzilla.core-3.16.0
+
+About
+About This Content
+June 25, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.bugzilla.ide-3.16.0
+
+About
+About This Content
+June 25, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.bugzilla.ui-3.16.0
+
+About
+About This Content
+June 25, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.commons.core-3.16.0
+
+About
+About This Content
+June 25, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.commons.identity.core-1.8.0
+
+About
+About This Content
+June 25, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.commons.net-3.16.0
+
+About
+About This Content
+June 25, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.commons.notifications.core-1.8.0
+
+About
+About This Content
+June 25, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.commons.notifications.feed-1.8.0
+
+About
+About This Content
+June 25, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.commons.notifications.ui-1.8.0
+
+About
+About This Content
+June 25, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.commons.repositories.core-1.8.0
+
+About
+About This Content
+June 25, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.commons.repositories.ui-1.8.0
+
+About
+About This Content
+June 25, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.commons.screenshots-3.16.0
+
+About
+About This Content
+June 25, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.commons.ui-3.16.0
+
+About
+About This Content
+June 25, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.commons.workbench-3.16.0
+
+About
+About This Content
+June 25, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.commons.xmlrpc-3.16.0
+
+About
+About This Content
+June 25, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.context.core-3.16.0
+
+About
+About This Content
+June 25, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.context.tasks.ui-3.16.0
+
+About
+About This Content
+June 25, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.context.ui-3.16.0
+
+About
+About This Content
+June 25, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.debug.ui-3.16.0
+
+About
+About This Content
+June 25, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.discovery.core-3.16.0
+
+About
+About This Content
+July 3, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.discovery.ui-3.16.0
+
+About
+About This Content
+July 3, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.github.core-3.7.0
+
+About
+About This Content
+June 2, 2006
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.github.doc-3.7.0
+
+About
+About This Content
+June 2, 2006
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.github.ui-3.7.0
+
+About
+About This Content
+June 2, 2006
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.help.ui-3.16.0
+
+About
+About This Content
+June 25, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.ide.ant-3.16.0
+
+About
+About This Content
+June 25, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.ide.ui-3.16.0
+
+About
+About This Content
+June 25, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.java.tasks-3.16.0
+
+About
+About This Content
+June 7, 2007
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.java.ui-3.16.0
+
+About
+About This Content
+June 25, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.monitor.core-3.16.0
+
+About
+About This Content
+June 25, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.monitor.ui-3.16.0
+
+About
+About This Content
+June 25, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.resources.ui-3.16.0
+
+About
+About This Content
+June 25, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.tasks.bugs-3.16.0
+
+About
+About This Content
+June 25, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.tasks.core-3.16.0
+
+About
+About This Content
+June 25, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.tasks.index.core-3.16.0
+
+About
+About This Content
+June 25, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.tasks.index.ui-3.16.0
+
+About
+About This Content
+June 25, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.tasks.search-3.16.0
+
+About
+About This Content
+June 25, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.tasks.ui-3.16.0
+
+About
+About This Content
+June 25, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.team.ui-3.16.0
+
+About
+About This Content
+June 25, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.wikitext.confluence.core-2.5.0
+
+About
+About This Content
+July 3, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.wikitext.confluence.ui-2.5.0
+
+About
+About This Content
+July 3, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.wikitext.context.ui-2.5.0
+
+About
+About This Content
+July 3, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.wikitext.core-2.5.0
+
+About
+About This Content
+July 3, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.wikitext.core.ant-2.5.0
+
+About
+About This Content
+July 3, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.wikitext.core.osgi-2.5.0
+
+About
+About This Content
+July 3, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.wikitext.help.ui-2.5.0
+
+About
+About This Content
+July 3, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.wikitext.html.core-2.5.0
+
+About
+About This Content
+July 3, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.wikitext.markdown.core-2.5.0
+
+About
+About This Content
+June 24, 2011
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.wikitext.markdown.ui-2.5.0
+
+About
+About This Content
+June 25, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.wikitext.mediawiki.core-2.5.0
+
+About
+About This Content
+July 3, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.wikitext.mediawiki.ui-2.5.0
+
+About
+About This Content
+July 3, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.wikitext.tasks.ui-2.5.0
+
+About
+About This Content
+July 3, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.wikitext.textile.core-2.5.0
+
+About
+About This Content
+July 3, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.wikitext.textile.ui-2.5.0
+
+About
+About This Content
+July 3, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.wikitext.tracwiki.core-2.5.0
+
+About
+About This Content
+July 3, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.wikitext.tracwiki.ui-2.5.0
+
+About
+About This Content
+July 3, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.wikitext.twiki.core-2.5.0
+
+About
+About This Content
+July 3, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.wikitext.twiki.ui-2.5.0
+
+About
+About This Content
+June 25, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.mylyn.wikitext.ui-2.5.0
+
+About
+About This Content
+July 3, 2008
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.osgi-3.10.100
+
+About
+About This Content
+August 25, 2006
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+Third Party Content
+The Content includes items that have been sourced from third parties as set out below. If you did not receive this Content directly from the Eclipse Foundation, the following is provided for informational purposes only, and you should look to the Redistributor's license for terms and conditions of use.
+OSGi Materials
+All files in the following sub-directories (and their sub-directories):
+org/osgi
+and the following files (which may not be present in all cases):
+osgi/ee.foundation.jar
+osgi/ee.minimum.jar
+osgi/osgi.jar
+shall be defined as the "OSGi Materials." The OSGi Materials are:
+Copyright (c) 2000, 2006
+OSGi Alliance Bishop Ranch 6
+2400 Camino Ramon, Suite 375
+San Ramon, CA 94583 USA
+All Rights Reserved.
+The OSGi Materials are provided to you under the terms and conditions of the Apache License, Version 2.0. A copy of the license is contained in the file 
+LICENSE-2.0.txt
+ and is also available at 
+http://www.apache.org/licenses/LICENSE-2.0.html
+.
+Implementation of certain elements of the OSGi Materials may be subject to third party intellectual property rights, including without limitation, patent rights (such a third party may or may not be a member of the OSGi Alliance). The OSGi Alliance and its members are not responsible and shall not be held responsible in any manner for identifying or failing to identify any or all such third party intellectual property rights.
+Apache Felix Resolver
+This bundle includes software developed by The Apache Software Foundation as part of the Felix project. this includes all files in the following sub-directories (and their sub-directories):
+org/apache/felix/resolver
+Your use of the Resolver code is subject to the terms and conditions of the Apache Software License 2.0. A copy of the license is contained in the file 
+LICENSE-2.0.txt
+ and is also available at 
+http://www.apache.org/licenses/LICENSE-2.0.html
+.
+The names "Felix Resolver" and "Apache Software Foundation" must not be used to endorse or promote products derived from this software without prior written permission. For written permission, please contact 
+apache@apache.org
+.
+Original binaries and source are available from the 
+Apache Felix website
+.
+OSGi is a trademark, registered trademark, or service mark of The OSGi Alliance in the US and other countries. Java is a trademark, registered trademark, or service mark of Sun Microsystems, Inc. in the US and other countries. All other trademarks, registered trademarks, or service marks used in the Content are the property of their respective owners and are hereby recognized.
+
+
+>>> org.eclipse.osgi.compatibility.state-1.0.100
+
+About
+About This Content
+June 2, 2006
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.osgi.services-3.5.0
+
+About
+About This Content
+August 25, 2006
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+Third Party Content
+The Content includes items that have been sourced from third parties as set out below. If you did not receive this Content directly from the Eclipse Foundation, the following is provided for informational purposes only, and you should look to the Redistributors license for terms and conditions of use.
+OSGi Materials
+All files in the following sub-directories (and their sub-directories):
+org/osgi
+and the following files (which may not be present in all cases):
+osgi/ee.foundation.jar
+osgi/ee.minimum.jar
+shall be defined as the "OSGi Materials." The OSGi Materials are:
+Copyright (c) 2000, 2006
+OSGi Alliance Bishop Ranch 6
+2400 Camino Ramon, Suite 375
+San Ramon, CA 94583 USA
+All Rights Reserved.
+The OSGi Materials are provided to you under the terms and conditions of the Apache License, Version 2.0. A copy of the license is contained in the file 
+LICENSE-2.0.txt
+ and is also available at 
+http://www.apache.org/licenses/LICENSE-2.0.html
+.
+Implementation of certain elements of the OSGi Materials may be subject to third party intellectual property rights, including without limitation, patent rights (such a third party may or may not be a member of the OSGi Alliance). The OSGi Alliance and its members are not responsible and shall not be held responsible in any manner for identifying or failing to identify any or all such third party intellectual property rights.
+OSGi is a trademark, registered trademark, or service mark of The OSGi Alliance in the US and other countries. Java is a trademark, registered trademark, or service mark of Sun Microsystems, Inc. in the US and other countries. All other trademarks, registered trademarks, or service marks used in the Content are the property of their respective owners and are hereby recognized.
+
+
+>>> org.eclipse.osgi.util-3.3.100
+
+About
+About This Content
+August 25, 2006
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+Third Party Content
+The Content includes items that have been sourced from third parties as set out below. If you did not receive this Content directly from the Eclipse Foundation, the following is provided for informational purposes only, and you should look to the Redistributors license for terms and conditions of use.
+OSGi Materials
+All files in the following sub-directories (and their sub-directories):
+org/osgi
+and the following files (which may not be present in all cases):
+osgi/ee.foundation.jar
+osgi/ee.minimum.jar
+shall be defined as the "OSGi Materials." The OSGi Materials are:
+Copyright (c) 2000, 2006
+OSGi Alliance Bishop Ranch 6
+2400 Camino Ramon, Suite 375
+San Ramon, CA 94583 USA
+All Rights Reserved.
+The OSGi Materials are provided to you under the terms and conditions of the Apache License, Version 2.0. A copy of the license is contained in the file 
+LICENSE-2.0.txt
+ and is also available at 
+http://www.apache.org/licenses/LICENSE-2.0.html
+.
+Implementation of certain elements of the OSGi Materials may be subject to third party intellectual property rights, including without limitation, patent rights (such a third party may or may not be a member of the OSGi Alliance). The OSGi Alliance and its members are not responsible and shall not be held responsible in any manner for identifying or failing to identify any or all such third party intellectual property rights.
+OSGi is a trademark, registered trademark, or service mark of The OSGi Alliance in the US and other countries. Java is a trademark, registered trademark, or service mark of Sun Microsystems, Inc. in the US and other countries. All other trademarks, registered trademarks, or service marks used in the Content are the property of their respective owners and are hereby recognized.
+
+
+>>> org.eclipse.pde-3.11.0
+
+About
+About This Content
+June 2, 2006
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.pde.api.tools-1.0.700
+
+About
+About This Content
+June 2, 2006
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.pde.api.tools.annotations-1.0.0
+
+About
+About This Content
+June 5, 2006
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.pde.api.tools.ui-1.0.600
+
+About
+About This Content
+June 2, 2006
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.pde.build-3.9.100
+
+About
+About This Content
+February 08, 2007
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+Third Party Content
+The Content includes items that have been sourced from third parties as set out below. If you did not receive this Content directly from the Eclipse Foundation, the following is provided for informational purposes only, and you should look to the Redistributors license for terms and conditions of use.
+OSGi Materials
+The following file:
+org/osgi/framework/Version
+shall be defined as a subset of the "OSGi Materials." The OSGi Materials are:
+Copyright (c) 2000, 2006
+OSGi Alliance Bishop Ranch 6
+2400 Camino Ramon, Suite 375
+San Ramon, CA 94583 USA
+All Rights Reserved.
+The OSGi Materials are provided to you under the terms and conditions of the Apache License, Version 2.0. A copy of the license is contained in the file 
+LICENSE-2.0.txt
+ and is also available at 
+http://www.apache.org/licenses/LICENSE-2.0.html
+.
+Implementation of certain elements of the OSGi Materials may be subject to third party intellectual property rights, including without limitation, patent rights (such a third party may or may not be a member of the OSGi Alliance). The OSGi Alliance and its members are not responsible and shall not be held responsible in any manner for identifying or failing to identify any or all such third party intellectual property rights.
+OSGi is a trademark, registered trademark, or service mark of The OSGi Alliance in the US and other countries. Java is a trademark, registered trademark, or service mark of Sun Microsystems, Inc. in the US and other countries. All other trademarks, registered trademarks, or service marks used in the Content are the property of their respective owners and are hereby recognized.
+
+
+>>> org.eclipse.pde.core-3.10.100
+
+About
+About This Content
+June 2, 2006
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.pde.doc.user-3.11.0
+
+About
+About This Content
+June 2, 2006
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.pde.ds.core-1.0.400
+
+About
+About This Content
+June 2, 2006
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.pde.ds.ui-1.0.400
+
+About
+About This Content
+June 2, 2006
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.pde.junit.runtime-3.4.500
+
+About
+About This Content
+June 2, 2006
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.pde.launching-3.6.300
+
+About
+About This Content
+June 2, 2006
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.pde.runtime-3.4.500
+
+About
+About This Content
+June 2, 2006
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.pde.ua.core-1.0.400
+
+About
+About This Content
+June 2, 2006
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.pde.ua.ui-1.0.400
+
+About
+About This Content
+June 2, 2006
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.pde.ui-3.8.200
+
+About
+About This Content
+June 2, 2006
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.pde.ui.templates-3.5.0
+
+About
+About This Content
+June 2, 2006
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.persistence.antlr-3.2.0
+
+About ANTLR 3.2.0
+ANTLR 3.2.0
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL") and Eclipse Distribution License Version 1.0 (EDL). A copy of the EPL is available at  http://www.eclipse.org/legal/epl-v10.html
+and a copy of the EDL is available at http://www.eclipse.org/org/documents/edl-v10.php. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributors license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL and EDL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org.
+
+Third Party Content
+
+(ADDITIONAL LICENSE INFORMATION):
+
+The Content includes items that have been sourced from third parties as set out below. If you did not receive this Content directly from the Eclipse Foundation, the following is provided for informational purposes only, and you should look to the Redistributors license for terms and conditions of use.
+
+
+> BSD
+
+
+ANTLR v3.2
+
+The ANTLR library
+(license) is included within EclipseLink Project to enable parsing of the Java Persistence Query language (JP QL). 
+
+The ANTLR library is re-packaged within the project in the org.eclipse.persistence.internal.libraries.antlr.* packages.
+
+The source is available with the project's subversion repository. The binaries are distributed within the eclipselink.jar and in the org.eclipse.persistence.antlr_3.2.0.v*.jar bundle.
+
+
+>>> org.eclipse.persistence.asm-5.0.1
+
+About ASM 5.0.1
+ASM 5.0.1
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL") and Eclipse Distribution License Version 1.0 (EDL). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+ and a copy of the EDL is available at 
+http://www.eclipse.org/org/documents/edl-v10.php
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributors license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL and EDL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+Third Party Content
+The Content includes items that have been sourced from third parties as set out below. If you did not receive this Content directly from the Eclipse Foundation, the following is provided for informational purposes only, and you should look to the Redistributors license for terms and conditions of use.
+ASM v5.0.1
+The EclipseLink Project includes ASM for the purpose of byte code weaving. The AMS library is re-packaged within the source of the project (org.persistence.eclipse.internal.libraries.asm.*) to avoid version collisions with other usage of ASM.
+The source code is available within the project's git repository and the org.eclipse.persistence.asm.source_*.jar bundle. The binaries are distributed within the eclipselink.jar and in the org.eclipse.persistence.asm_*.jar bundle.
+http://asm.objectweb.org/license.html
+Copyright (c) 2000-2011 INRIA, France Telecom
+All rights reserved.
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+Neither the name of the copyright holders nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THEIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSEARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BELIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, ORCONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OFSUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER INCONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OFTHE POSSIBILITY OF SUCH DAMAGE.
+
+
+>>> org.eclipse.persistence.core-2.6.0
+
+About EclipseLink 2.6
+EclipseLink 2.6
+Eclipse Kepler simultaneous release
+Target Date - June 2013
+About
+The 
+EclipseLink
+ project's goal is to provide a complete persistence framework that is both comprehensive and universal. It will run in any Java environment and read and write objects to virtually any type of data source, including relational databases, and XML. EclipseLink will focus on providing leading edge support, including advanced feature extensions, for the dominant persistence standards for each target data source; Java Persistence API (JPA) for relational databases, Java API for XML Binding (JAXB) for XML, Service Data Objects (SDO), and Database Web services (DBWS).
+For tips on getting started with EclipseLink, please see the following resources:
+EclipseLink 2.6 Release Notes
+Documentation
+Examples and How To
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL") and Eclipse Distribution License Version 1.0 (EDL). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+ and a copy of the EDL is available at 
+http://www.eclipse.org/org/documents/edl-v10.php
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributors license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL and EDL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+Third Party Content
+The Content includes items that have been sourced from third parties as set out below. If you did not receive this Content directly from the Eclipse Foundation, the following is provided for informational purposes only, and you should look to the Redistributors license for terms and conditions of use.
+Foundation Dependencies
+ASM
+EclipseLink JPA
+ANTLR
+Java Persistence API (JPA) 2.1
+EclipseLink MOXy
+Java Architecture for XML Binding (JAXB)
+Java Mail
+Java Activation Framework
+Streaming API for XML (StAX)
+EclipseLink SDO
+Service Data Objects (SDO)
+EclipseLink DBWS
+Java Servlet 2.4 (or higher)
+Utilities
+Java Connector
+Xerces
+WSDL4J 1.6.2 
+ASM v3.3.1
+The EclipseLink Project includes ASM for the purpose of byte code weaving. The AMS library is re-packaged within the source of the project (org.persistence.eclipse.internal.libraries.asm.*) to avoid version collisions with other usage of ASM.
+The source code is available within the project's subversion repository. The binaries are distributed within the eclipselink.jar and in the org.eclipse.persistence.asm_*.jar bundle.
+http://asm.objectweb.org/license.html
+Copyright (c) 2000-2005 INRIA, France Telecom, All rights reserved.
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+Neither the name of the copyright holders nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THEIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSEARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BELIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, ORCONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OFSUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER INCONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OFTHE POSSIBILITY OF SUCH DAMAGE.
+ANTLR v3.2
+The 
+ANTLR library
+ (
+license
+) is included within EclipseLink Project to enable parsing of the Java Persistence Query language (JP QL). The ANTLR library is re-packaged within the project in the org.eclipse.persistence.internal.libraries.antlr.* packages.
+The source is available with the project's subversion repository. The binaries are distributed within the eclipselink.jar and in the org.eclipse.persistence.antlr_3.2.0.v*.jar bundle.
+Java Architecture for XML Binding (JAXB) v2.2
+The 
+JAXB libraries
+ distributed under 
+CDDL v1.0
+ are included within the EclipseLink Project to enable the MOXy component's implementation of JAXB.
+JAXB Libraries:
+javax.xml.bind_2.2.0.v201105210648.jar (jaxb-api.jar)
+com.sun.xml.bind_2.2.0.v201004141950.jar (jaxb-impl.jar)
+com.sun.tools.xjc_2.2.0.jar (jaxb.xjc.jar)
+Java Persistence (JPA) 2.1
+EclipseLink is the Java Persistence (JPA) 2.1 Reference Implementation (
+JSR 338
+). The JPA 2.1 specification API is included in EclipseLink under the 
+EPL
+ and 
+EDL
+ licenses.
+Java Mail v1.4.0
+The Java Mail library (mail.jar) can be downloaded from 
+java.sun.com
+ under 
+CDDL v1.0
+ and is included within the EclipseLink Project distribution to support Web Services attachment handling in the MOXy component. It is only required when using Java SE 5 (Java Mail is included in Java SE 6).
+Java Activation Framework v1.1
+The Java Activation Framework (activation.jar) is distributed with the 
+JAXB v2.2
+ under 
+CDDL v1.0
+ and is included within the EclipseLink Project distribution to support Web Services attachment handling in the MOXy component. It is only required when using Java SE 5 (The Java Activation Framework is included in Java SE 6).
+Streaming API for XML (StAX) v1.0.1
+The Streaming API for XML (StAX) library (jsr173_1.0_api.jar) is distributed with the 
+JAXB v2.2
+ under 
+CDDL v1.0
+ and is included within the EclipseLink Project distribution as an optional XML processing approach in the MOXy component.
+Service Data Objects (SDO) v2.1.1
+The 
+Service Data Objects (SDO) API
+ is distributed under a 
+CDDLv1.0 
+and 
+custom license
+. It provides the standard API implemented by the EclipseLink Project's SDO component.
+Java Connector v1.5
+The JCA 1.5 API is distributed under 
+CDDLv1.0 
+.
+This jar is being shipped and required by the Workbench only. When using EclipseLink in a container where JCA integration is required that container will provide the necessary API libraries.
+Xerces v2.9.0
+Xerces 2.9.0 is available from 
+the Xerces home page
+. It is distributed under 
+Apache 2.0
+.
+This jar is shipped for the Workbench's use only in the reading and writing of XML configuration files.
+Java Servlet 2.4
+The 
+Java Servlet 2.4 specification
+ is distributed under the 
+Apache 2.0 license
+. The source code is part of the 
+Apache Tomcat project
+This jar is only required at design time for the DBWS Builder utility.
+
+
+
+
+WSDL4j v1.6.2
+WSDL4J 1.6.2 is available for download from the 
+wsdl4j project
+. It distributed under 
+CPLv1.0 
+.
+This jar is only required at design time for the DBWS Builder utility.
+
+
+>>> org.eclipse.persistence.dbws-2.6.0
+
+About EclipseLink 2.6
+EclipseLink 2.6
+Eclipse Kepler simultaneous release
+Target Date - June 2013
+About
+The 
+EclipseLink
+ project's goal is to provide a complete persistence framework that is both comprehensive and universal. It will run in any Java environment and read and write objects to virtually any type of data source, including relational databases, and XML. EclipseLink will focus on providing leading edge support, including advanced feature extensions, for the dominant persistence standards for each target data source; Java Persistence API (JPA) for relational databases, Java API for XML Binding (JAXB) for XML, Service Data Objects (SDO), and Database Web services (DBWS).
+For tips on getting started with EclipseLink, please see the following resources:
+EclipseLink 2.6 Release Notes
+Documentation
+Examples and How To
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL") and Eclipse Distribution License Version 1.0 (EDL). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+ and a copy of the EDL is available at 
+http://www.eclipse.org/org/documents/edl-v10.php
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributors license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL and EDL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+Third Party Content
+The Content includes items that have been sourced from third parties as set out below. If you did not receive this Content directly from the Eclipse Foundation, the following is provided for informational purposes only, and you should look to the Redistributors license for terms and conditions of use.
+Foundation Dependencies
+ASM
+EclipseLink JPA
+ANTLR
+Java Persistence API (JPA) 2.1
+EclipseLink MOXy
+Java Architecture for XML Binding (JAXB)
+Java Mail
+Java Activation Framework
+Streaming API for XML (StAX)
+EclipseLink SDO
+Service Data Objects (SDO)
+EclipseLink DBWS
+Java Servlet 2.4 (or higher)
+Utilities
+Java Connector
+Xerces
+WSDL4J 1.6.2 
+ASM v3.3.1
+The EclipseLink Project includes ASM for the purpose of byte code weaving. The AMS library is re-packaged within the source of the project (org.persistence.eclipse.internal.libraries.asm.*) to avoid version collisions with other usage of ASM.
+The source code is available within the project's subversion repository. The binaries are distributed within the eclipselink.jar and in the org.eclipse.persistence.asm_*.jar bundle.
+http://asm.objectweb.org/license.html
+Copyright (c) 2000-2005 INRIA, France Telecom, All rights reserved.
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+Neither the name of the copyright holders nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THEIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSEARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BELIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, ORCONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OFSUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER INCONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OFTHE POSSIBILITY OF SUCH DAMAGE.
+ANTLR v3.2
+The 
+ANTLR library
+ (
+license
+) is included within EclipseLink Project to enable parsing of the Java Persistence Query language (JP QL). The ANTLR library is re-packaged within the project in the org.eclipse.persistence.internal.libraries.antlr.* packages.
+The source is available with the project's subversion repository. The binaries are distributed within the eclipselink.jar and in the org.eclipse.persistence.antlr_3.2.0.v*.jar bundle.
+Java Architecture for XML Binding (JAXB) v2.2
+The 
+JAXB libraries
+ distributed under 
+CDDL v1.0
+ are included within the EclipseLink Project to enable the MOXy component's implementation of JAXB.
+JAXB Libraries:
+javax.xml.bind_2.2.0.v201105210648.jar (jaxb-api.jar)
+com.sun.xml.bind_2.2.0.v201004141950.jar (jaxb-impl.jar)
+com.sun.tools.xjc_2.2.0.jar (jaxb.xjc.jar)
+Java Persistence (JPA) 2.1
+EclipseLink is the Java Persistence (JPA) 2.1 Reference Implementation (
+JSR 338
+). The JPA 2.1 specification API is included in EclipseLink under the 
+EPL
+ and 
+EDL
+ licenses.
+Java Mail v1.4.0
+The Java Mail library (mail.jar) can be downloaded from 
+java.sun.com
+ under 
+CDDL v1.0
+ and is included within the EclipseLink Project distribution to support Web Services attachment handling in the MOXy component. It is only required when using Java SE 5 (Java Mail is included in Java SE 6).
+Java Activation Framework v1.1
+The Java Activation Framework (activation.jar) is distributed with the 
+JAXB v2.2
+ under 
+CDDL v1.0
+ and is included within the EclipseLink Project distribution to support Web Services attachment handling in the MOXy component. It is only required when using Java SE 5 (The Java Activation Framework is included in Java SE 6).
+Streaming API for XML (StAX) v1.0.1
+The Streaming API for XML (StAX) library (jsr173_1.0_api.jar) is distributed with the 
+JAXB v2.2
+ under 
+CDDL v1.0
+ and is included within the EclipseLink Project distribution as an optional XML processing approach in the MOXy component.
+Service Data Objects (SDO) v2.1.1
+The 
+Service Data Objects (SDO) API
+ is distributed under a 
+CDDLv1.0 
+and 
+custom license
+. It provides the standard API implemented by the EclipseLink Project's SDO component.
+Java Connector v1.5
+The JCA 1.5 API is distributed under 
+CDDLv1.0 
+.
+This jar is being shipped and required by the Workbench only. When using EclipseLink in a container where JCA integration is required that container will provide the necessary API libraries.
+Xerces v2.9.0
+Xerces 2.9.0 is available from 
+the Xerces home page
+. It is distributed under 
+Apache 2.0
+.
+This jar is shipped for the Workbench's use only in the reading and writing of XML configuration files.
+Java Servlet 2.4
+The 
+Java Servlet 2.4 specification
+ is distributed under the 
+Apache 2.0 license
+. The source code is part of the 
+Apache Tomcat project
+This jar is only required at design time for the DBWS Builder utility.
+
+
+
+WSDL4j v1.6.2
+WSDL4J 1.6.2 is available for download from the 
+wsdl4j project
+. It distributed under 
+CPLv1.0 
+.
+This jar is only required at design time for the DBWS Builder utility.
+
+
+>>> org.eclipse.persistence.dbws.builder-2.6.0
+
+About EclipseLink 2.6
+EclipseLink 2.6
+Eclipse Kepler simultaneous release
+Target Date - June 2013
+About
+The 
+EclipseLink
+ project's goal is to provide a complete persistence framework that is both comprehensive and universal. It will run in any Java environment and read and write objects to virtually any type of data source, including relational databases, and XML. EclipseLink will focus on providing leading edge support, including advanced feature extensions, for the dominant persistence standards for each target data source; Java Persistence API (JPA) for relational databases, Java API for XML Binding (JAXB) for XML, Service Data Objects (SDO), and Database Web services (DBWS).
+For tips on getting started with EclipseLink, please see the following resources:
+EclipseLink 2.6 Release Notes
+Documentation
+Examples and How To
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL") and Eclipse Distribution License Version 1.0 (EDL). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+ and a copy of the EDL is available at 
+http://www.eclipse.org/org/documents/edl-v10.php
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributors license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL and EDL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+Third Party Content
+The Content includes items that have been sourced from third parties as set out below. If you did not receive this Content directly from the Eclipse Foundation, the following is provided for informational purposes only, and you should look to the Redistributors license for terms and conditions of use.
+Foundation Dependencies
+ASM
+EclipseLink JPA
+ANTLR
+Java Persistence API (JPA) 2.1
+EclipseLink MOXy
+Java Architecture for XML Binding (JAXB)
+Java Mail
+Java Activation Framework
+Streaming API for XML (StAX)
+EclipseLink SDO
+Service Data Objects (SDO)
+EclipseLink DBWS
+Java Servlet 2.4 (or higher)
+Utilities
+Java Connector
+Xerces
+WSDL4J 1.6.2 
+ASM v3.3.1
+The EclipseLink Project includes ASM for the purpose of byte code weaving. The AMS library is re-packaged within the source of the project (org.persistence.eclipse.internal.libraries.asm.*) to avoid version collisions with other usage of ASM.
+The source code is available within the project's subversion repository. The binaries are distributed within the eclipselink.jar and in the org.eclipse.persistence.asm_*.jar bundle.
+http://asm.objectweb.org/license.html
+Copyright (c) 2000-2005 INRIA, France Telecom, All rights reserved.
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+Neither the name of the copyright holders nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THEIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSEARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BELIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, ORCONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OFSUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER INCONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OFTHE POSSIBILITY OF SUCH DAMAGE.
+ANTLR v3.2
+The 
+ANTLR library
+ (
+license
+) is included within EclipseLink Project to enable parsing of the Java Persistence Query language (JP QL). The ANTLR library is re-packaged within the project in the org.eclipse.persistence.internal.libraries.antlr.* packages.
+The source is available with the project's subversion repository. The binaries are distributed within the eclipselink.jar and in the org.eclipse.persistence.antlr_3.2.0.v*.jar bundle.
+Java Architecture for XML Binding (JAXB) v2.2
+The 
+JAXB libraries
+ distributed under 
+CDDL v1.0
+ are included within the EclipseLink Project to enable the MOXy component's implementation of JAXB.
+JAXB Libraries:
+javax.xml.bind_2.2.0.v201105210648.jar (jaxb-api.jar)
+com.sun.xml.bind_2.2.0.v201004141950.jar (jaxb-impl.jar)
+com.sun.tools.xjc_2.2.0.jar (jaxb.xjc.jar)
+Java Persistence (JPA) 2.1
+EclipseLink is the Java Persistence (JPA) 2.1 Reference Implementation (
+JSR 338
+). The JPA 2.1 specification API is included in EclipseLink under the 
+EPL
+ and 
+EDL
+ licenses.
+Java Mail v1.4.0
+The Java Mail library (mail.jar) can be downloaded from 
+java.sun.com
+ under 
+CDDL v1.0
+ and is included within the EclipseLink Project distribution to support Web Services attachment handling in the MOXy component. It is only required when using Java SE 5 (Java Mail is included in Java SE 6).
+Java Activation Framework v1.1
+The Java Activation Framework (activation.jar) is distributed with the 
+JAXB v2.2
+ under 
+CDDL v1.0
+ and is included within the EclipseLink Project distribution to support Web Services attachment handling in the MOXy component. It is only required when using Java SE 5 (The Java Activation Framework is included in Java SE 6).
+Streaming API for XML (StAX) v1.0.1
+The Streaming API for XML (StAX) library (jsr173_1.0_api.jar) is distributed with the 
+JAXB v2.2
+ under 
+CDDL v1.0
+ and is included within the EclipseLink Project distribution as an optional XML processing approach in the MOXy component.
+Service Data Objects (SDO) v2.1.1
+The 
+Service Data Objects (SDO) API
+ is distributed under a 
+CDDLv1.0 
+and 
+custom license
+. It provides the standard API implemented by the EclipseLink Project's SDO component.
+Java Connector v1.5
+The JCA 1.5 API is distributed under 
+CDDLv1.0 
+.
+This jar is being shipped and required by the Workbench only. When using EclipseLink in a container where JCA integration is required that container will provide the necessary API libraries.
+Xerces v2.9.0
+Xerces 2.9.0 is available from 
+the Xerces home page
+. It is distributed under 
+Apache 2.0
+.
+This jar is shipped for the Workbench's use only in the reading and writing of XML configuration files.
+Java Servlet 2.4
+The 
+Java Servlet 2.4 specification
+ is distributed under the 
+Apache 2.0 license
+. The source code is part of the 
+Apache Tomcat project
+This jar is only required at design time for the DBWS Builder utility.
+
+
+WSDL4j v1.6.2
+WSDL4J 1.6.2 is available for download from the 
+wsdl4j project
+. It distributed under 
+CPLv1.0 
+.
+This jar is only required at design time for the DBWS Builder utility.
+
+
+>>> org.eclipse.persistence.jpa-2.6.0
+
+About EclipseLink 2.6
+EclipseLink 2.6
+Eclipse Kepler simultaneous release
+Target Date - June 2013
+About
+The 
+EclipseLink
+ project's goal is to provide a complete persistence framework that is both comprehensive and universal. It will run in any Java environment and read and write objects to virtually any type of data source, including relational databases, and XML. EclipseLink will focus on providing leading edge support, including advanced feature extensions, for the dominant persistence standards for each target data source; Java Persistence API (JPA) for relational databases, Java API for XML Binding (JAXB) for XML, Service Data Objects (SDO), and Database Web services (DBWS).
+For tips on getting started with EclipseLink, please see the following resources:
+EclipseLink 2.6 Release Notes
+Documentation
+Examples and How To
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL") and Eclipse Distribution License Version 1.0 (EDL). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+ and a copy of the EDL is available at 
+http://www.eclipse.org/org/documents/edl-v10.php
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributors license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL and EDL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+Third Party Content
+The Content includes items that have been sourced from third parties as set out below. If you did not receive this Content directly from the Eclipse Foundation, the following is provided for informational purposes only, and you should look to the Redistributors license for terms and conditions of use.
+Foundation Dependencies
+ASM
+EclipseLink JPA
+ANTLR
+Java Persistence API (JPA) 2.1
+EclipseLink MOXy
+Java Architecture for XML Binding (JAXB)
+Java Mail
+Java Activation Framework
+Streaming API for XML (StAX)
+EclipseLink SDO
+Service Data Objects (SDO)
+EclipseLink DBWS
+Java Servlet 2.4 (or higher)
+Utilities
+Java Connector
+Xerces
+WSDL4J 1.6.2 
+ASM v3.3.1
+The EclipseLink Project includes ASM for the purpose of byte code weaving. The AMS library is re-packaged within the source of the project (org.persistence.eclipse.internal.libraries.asm.*) to avoid version collisions with other usage of ASM.
+The source code is available within the project's subversion repository. The binaries are distributed within the eclipselink.jar and in the org.eclipse.persistence.asm_*.jar bundle.
+http://asm.objectweb.org/license.html
+Copyright (c) 2000-2005 INRIA, France Telecom, All rights reserved.
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+Neither the name of the copyright holders nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THEIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSEARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BELIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, ORCONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OFSUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER INCONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OFTHE POSSIBILITY OF SUCH DAMAGE.
+ANTLR v3.2
+The 
+ANTLR library
+ (
+license
+) is included within EclipseLink Project to enable parsing of the Java Persistence Query language (JP QL). The ANTLR library is re-packaged within the project in the org.eclipse.persistence.internal.libraries.antlr.* packages.
+The source is available with the project's subversion repository. The binaries are distributed within the eclipselink.jar and in the org.eclipse.persistence.antlr_3.2.0.v*.jar bundle.
+Java Architecture for XML Binding (JAXB) v2.2
+The 
+JAXB libraries
+ distributed under 
+CDDL v1.0
+ are included within the EclipseLink Project to enable the MOXy component's implementation of JAXB.
+JAXB Libraries:
+javax.xml.bind_2.2.0.v201105210648.jar (jaxb-api.jar)
+com.sun.xml.bind_2.2.0.v201004141950.jar (jaxb-impl.jar)
+com.sun.tools.xjc_2.2.0.jar (jaxb.xjc.jar)
+Java Persistence (JPA) 2.1
+EclipseLink is the Java Persistence (JPA) 2.1 Reference Implementation (
+JSR 338
+). The JPA 2.1 specification API is included in EclipseLink under the 
+EPL
+ and 
+EDL
+ licenses.
+Java Mail v1.4.0
+The Java Mail library (mail.jar) can be downloaded from 
+java.sun.com
+ under 
+CDDL v1.0
+ and is included within the EclipseLink Project distribution to support Web Services attachment handling in the MOXy component. It is only required when using Java SE 5 (Java Mail is included in Java SE 6).
+Java Activation Framework v1.1
+The Java Activation Framework (activation.jar) is distributed with the 
+JAXB v2.2
+ under 
+CDDL v1.0
+ and is included within the EclipseLink Project distribution to support Web Services attachment handling in the MOXy component. It is only required when using Java SE 5 (The Java Activation Framework is included in Java SE 6).
+Streaming API for XML (StAX) v1.0.1
+The Streaming API for XML (StAX) library (jsr173_1.0_api.jar) is distributed with the 
+JAXB v2.2
+ under 
+CDDL v1.0
+ and is included within the EclipseLink Project distribution as an optional XML processing approach in the MOXy component.
+Service Data Objects (SDO) v2.1.1
+The 
+Service Data Objects (SDO) API
+ is distributed under a 
+CDDLv1.0 
+and 
+custom license
+. It provides the standard API implemented by the EclipseLink Project's SDO component.
+Java Connector v1.5
+The JCA 1.5 API is distributed under 
+CDDLv1.0 
+.
+This jar is being shipped and required by the Workbench only. When using EclipseLink in a container where JCA integration is required that container will provide the necessary API libraries.
+Xerces v2.9.0
+Xerces 2.9.0 is available from 
+the Xerces home page
+. It is distributed under 
+Apache 2.0
+.
+This jar is shipped for the Workbench's use only in the reading and writing of XML configuration files.
+Java Servlet 2.4
+The 
+Java Servlet 2.4 specification
+ is distributed under the 
+Apache 2.0 license
+. The source code is part of the 
+Apache Tomcat project
+This jar is only required at design time for the DBWS Builder utility.
+
+
+
+WSDL4j v1.6.2
+WSDL4J 1.6.2 is available for download from the 
+wsdl4j project
+. It distributed under 
+CPLv1.0 
+.
+This jar is only required at design time for the DBWS Builder utility.
+
+
+>>> org.eclipse.persistence.jpa.jpql-2.6.0
+
+About EclipseLink 2.6
+EclipseLink 2.6
+Eclipse Kepler simultaneous release
+Target Date - June 2013
+About
+The 
+EclipseLink
+ project's goal is to provide a complete persistence framework that is both comprehensive and universal. It will run in any Java environment and read and write objects to virtually any type of data source, including relational databases, and XML. EclipseLink will focus on providing leading edge support, including advanced feature extensions, for the dominant persistence standards for each target data source; Java Persistence API (JPA) for relational databases, Java API for XML Binding (JAXB) for XML, Service Data Objects (SDO), and Database Web services (DBWS).
+For tips on getting started with EclipseLink, please see the following resources:
+EclipseLink 2.6 Release Notes
+Documentation
+Examples and How To
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL") and Eclipse Distribution License Version 1.0 (EDL). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+ and a copy of the EDL is available at 
+http://www.eclipse.org/org/documents/edl-v10.php
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributors license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL and EDL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+Third Party Content
+The Content includes items that have been sourced from third parties as set out below. If you did not receive this Content directly from the Eclipse Foundation, the following is provided for informational purposes only, and you should look to the Redistributors license for terms and conditions of use.
+Foundation Dependencies
+ASM
+EclipseLink JPA
+ANTLR
+Java Persistence API (JPA) 2.1
+EclipseLink MOXy
+Java Architecture for XML Binding (JAXB)
+Java Mail
+Java Activation Framework
+Streaming API for XML (StAX)
+EclipseLink SDO
+Service Data Objects (SDO)
+EclipseLink DBWS
+Java Servlet 2.4 (or higher)
+Utilities
+Java Connector
+Xerces
+WSDL4J 1.6.2 
+ASM v3.3.1
+The EclipseLink Project includes ASM for the purpose of byte code weaving. The AMS library is re-packaged within the source of the project (org.persistence.eclipse.internal.libraries.asm.*) to avoid version collisions with other usage of ASM.
+The source code is available within the project's subversion repository. The binaries are distributed within the eclipselink.jar and in the org.eclipse.persistence.asm_*.jar bundle.
+http://asm.objectweb.org/license.html
+Copyright (c) 2000-2005 INRIA, France Telecom, All rights reserved.
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+Neither the name of the copyright holders nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THEIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSEARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BELIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, ORCONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OFSUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER INCONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OFTHE POSSIBILITY OF SUCH DAMAGE.
+ANTLR v3.2
+The 
+ANTLR library
+ (
+license
+) is included within EclipseLink Project to enable parsing of the Java Persistence Query language (JP QL). The ANTLR library is re-packaged within the project in the org.eclipse.persistence.internal.libraries.antlr.* packages.
+The source is available with the project's subversion repository. The binaries are distributed within the eclipselink.jar and in the org.eclipse.persistence.antlr_3.2.0.v*.jar bundle.
+Java Architecture for XML Binding (JAXB) v2.2
+The 
+JAXB libraries
+ distributed under 
+CDDL v1.0
+ are included within the EclipseLink Project to enable the MOXy component's implementation of JAXB.
+JAXB Libraries:
+javax.xml.bind_2.2.0.v201105210648.jar (jaxb-api.jar)
+com.sun.xml.bind_2.2.0.v201004141950.jar (jaxb-impl.jar)
+com.sun.tools.xjc_2.2.0.jar (jaxb.xjc.jar)
+Java Persistence (JPA) 2.1
+EclipseLink is the Java Persistence (JPA) 2.1 Reference Implementation (
+JSR 338
+). The JPA 2.1 specification API is included in EclipseLink under the 
+EPL
+ and 
+EDL
+ licenses.
+Java Mail v1.4.0
+The Java Mail library (mail.jar) can be downloaded from 
+java.sun.com
+ under 
+CDDL v1.0
+ and is included within the EclipseLink Project distribution to support Web Services attachment handling in the MOXy component. It is only required when using Java SE 5 (Java Mail is included in Java SE 6).
+Java Activation Framework v1.1
+The Java Activation Framework (activation.jar) is distributed with the 
+JAXB v2.2
+ under 
+CDDL v1.0
+ and is included within the EclipseLink Project distribution to support Web Services attachment handling in the MOXy component. It is only required when using Java SE 5 (The Java Activation Framework is included in Java SE 6).
+Streaming API for XML (StAX) v1.0.1
+The Streaming API for XML (StAX) library (jsr173_1.0_api.jar) is distributed with the 
+JAXB v2.2
+ under 
+CDDL v1.0
+ and is included within the EclipseLink Project distribution as an optional XML processing approach in the MOXy component.
+Service Data Objects (SDO) v2.1.1
+The 
+Service Data Objects (SDO) API
+ is distributed under a 
+CDDLv1.0 
+and 
+custom license
+. It provides the standard API implemented by the EclipseLink Project's SDO component.
+Java Connector v1.5
+The JCA 1.5 API is distributed under 
+CDDLv1.0 
+.
+This jar is being shipped and required by the Workbench only. When using EclipseLink in a container where JCA integration is required that container will provide the necessary API libraries.
+Xerces v2.9.0
+Xerces 2.9.0 is available from 
+the Xerces home page
+. It is distributed under 
+Apache 2.0
+.
+This jar is shipped for the Workbench's use only in the reading and writing of XML configuration files.
+Java Servlet 2.4
+The 
+Java Servlet 2.4 specification
+ is distributed under the 
+Apache 2.0 license
+. The source code is part of the 
+Apache Tomcat project
+This jar is only required at design time for the DBWS Builder utility.
+
+
+
+WSDL4j v1.6.2
+WSDL4J 1.6.2 is available for download from the 
+wsdl4j project
+. It distributed under 
+CPLv1.0 
+.
+This jar is only required at design time for the DBWS Builder utility.
+
+
+>>> org.eclipse.persistence.moxy-2.6.0
+
+About EclipseLink 2.6
+EclipseLink 2.6
+Eclipse Kepler simultaneous release
+Target Date - June 2013
+About
+The 
+EclipseLink
+ project's goal is to provide a complete persistence framework that is both comprehensive and universal. It will run in any Java environment and read and write objects to virtually any type of data source, including relational databases, and XML. EclipseLink will focus on providing leading edge support, including advanced feature extensions, for the dominant persistence standards for each target data source; Java Persistence API (JPA) for relational databases, Java API for XML Binding (JAXB) for XML, Service Data Objects (SDO), and Database Web services (DBWS).
+For tips on getting started with EclipseLink, please see the following resources:
+EclipseLink 2.6 Release Notes
+Documentation
+Examples and How To
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL") and Eclipse Distribution License Version 1.0 (EDL). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+ and a copy of the EDL is available at 
+http://www.eclipse.org/org/documents/edl-v10.php
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributors license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL and EDL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+Third Party Content
+The Content includes items that have been sourced from third parties as set out below. If you did not receive this Content directly from the Eclipse Foundation, the following is provided for informational purposes only, and you should look to the Redistributors license for terms and conditions of use.
+Foundation Dependencies
+ASM
+EclipseLink JPA
+ANTLR
+Java Persistence API (JPA) 2.1
+EclipseLink MOXy
+Java Architecture for XML Binding (JAXB)
+Java Mail
+Java Activation Framework
+Streaming API for XML (StAX)
+EclipseLink SDO
+Service Data Objects (SDO)
+EclipseLink DBWS
+Java Servlet 2.4 (or higher)
+Utilities
+Java Connector
+Xerces
+WSDL4J 1.6.2 
+ASM v3.3.1
+The EclipseLink Project includes ASM for the purpose of byte code weaving. The AMS library is re-packaged within the source of the project (org.persistence.eclipse.internal.libraries.asm.*) to avoid version collisions with other usage of ASM.
+The source code is available within the project's subversion repository. The binaries are distributed within the eclipselink.jar and in the org.eclipse.persistence.asm_*.jar bundle.
+http://asm.objectweb.org/license.html
+Copyright (c) 2000-2005 INRIA, France Telecom, All rights reserved.
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+Neither the name of the copyright holders nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THEIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSEARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BELIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, ORCONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OFSUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER INCONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OFTHE POSSIBILITY OF SUCH DAMAGE.
+ANTLR v3.2
+The 
+ANTLR library
+ (
+license
+) is included within EclipseLink Project to enable parsing of the Java Persistence Query language (JP QL). The ANTLR library is re-packaged within the project in the org.eclipse.persistence.internal.libraries.antlr.* packages.
+The source is available with the project's subversion repository. The binaries are distributed within the eclipselink.jar and in the org.eclipse.persistence.antlr_3.2.0.v*.jar bundle.
+Java Architecture for XML Binding (JAXB) v2.2
+The 
+JAXB libraries
+ distributed under 
+CDDL v1.0
+ are included within the EclipseLink Project to enable the MOXy component's implementation of JAXB.
+JAXB Libraries:
+javax.xml.bind_2.2.0.v201105210648.jar (jaxb-api.jar)
+com.sun.xml.bind_2.2.0.v201004141950.jar (jaxb-impl.jar)
+com.sun.tools.xjc_2.2.0.jar (jaxb.xjc.jar)
+Java Persistence (JPA) 2.1
+EclipseLink is the Java Persistence (JPA) 2.1 Reference Implementation (
+JSR 338
+). The JPA 2.1 specification API is included in EclipseLink under the 
+EPL
+ and 
+EDL
+ licenses.
+Java Mail v1.4.0
+The Java Mail library (mail.jar) can be downloaded from 
+java.sun.com
+ under 
+CDDL v1.0
+ and is included within the EclipseLink Project distribution to support Web Services attachment handling in the MOXy component. It is only required when using Java SE 5 (Java Mail is included in Java SE 6).
+Java Activation Framework v1.1
+The Java Activation Framework (activation.jar) is distributed with the 
+JAXB v2.2
+ under 
+CDDL v1.0
+ and is included within the EclipseLink Project distribution to support Web Services attachment handling in the MOXy component. It is only required when using Java SE 5 (The Java Activation Framework is included in Java SE 6).
+Streaming API for XML (StAX) v1.0.1
+The Streaming API for XML (StAX) library (jsr173_1.0_api.jar) is distributed with the 
+JAXB v2.2
+ under 
+CDDL v1.0
+ and is included within the EclipseLink Project distribution as an optional XML processing approach in the MOXy component.
+Service Data Objects (SDO) v2.1.1
+The 
+Service Data Objects (SDO) API
+ is distributed under a 
+CDDLv1.0 
+and 
+custom license
+. It provides the standard API implemented by the EclipseLink Project's SDO component.
+Java Connector v1.5
+The JCA 1.5 API is distributed under 
+CDDLv1.0 
+.
+This jar is being shipped and required by the Workbench only. When using EclipseLink in a container where JCA integration is required that container will provide the necessary API libraries.
+Xerces v2.9.0
+Xerces 2.9.0 is available from 
+the Xerces home page
+. It is distributed under 
+Apache 2.0
+.
+This jar is shipped for the Workbench's use only in the reading and writing of XML configuration files.
+Java Servlet 2.4
+The 
+Java Servlet 2.4 specification
+ is distributed under the 
+Apache 2.0 license
+. The source code is part of the 
+Apache Tomcat project
+This jar is only required at design time for the DBWS Builder utility.
+
+
+
+WSDL4j v1.6.2
+WSDL4J 1.6.2 is available for download from the 
+wsdl4j project
+. It distributed under 
+CPLv1.0 
+.
+This jar is only required at design time for the DBWS Builder utility.
+
+
+>>> org.eclipse.platform-4.5.0
+
+About
+About This Content
+May 11, 2006
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.platform.doc.user-4.5.0
+
+About
+About This Content
+June 2, 2006
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.rcp-4.5.0
+
+About
+About This Content
+June 2, 2006
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.recommenders.apidocs-2.2.0
+
+About
+About This Content
+June 5, 2006
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.recommenders.apidocs.rcp-2.2.0
+
+About
+About This Content
+June 5, 2006
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.recommenders.calls-2.2.0
+
+About
+About This Content
+June 5, 2006
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.recommenders.calls.rcp-2.2.0
+
+About
+About This Content
+June 5, 2006
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.recommenders.chain.rcp-2.2.0
+
+About
+About This Content
+June 5, 2006
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.recommenders.completion.rcp-2.2.0
+
+About
+About This Content
+June 5, 2006
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.recommenders.constructors-2.2.0
+
+About
+About This Content
+June 5, 2006
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.recommenders.constructors.rcp-2.2.0
+
+About
+About This Content
+June 5, 2006
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.recommenders.coordinates-2.2.0
+
+About
+About This Content
+June 5, 2006
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public License Version 1.0 ("EPL"). A copy of the EPL is available at 
+http://www.eclipse.org/legal/epl-v10.html
+. For purposes of the EPL, "Program" will mean the Content.
+If you did not receive this Content directly from the Eclipse Foundation, the Content is being redistributed by another party ("Redistributor") and different terms and conditions may apply to your use of any object code in the Content. Check the Redistributor's license that was provided with the Content. If no such license exists, contact the Redistributor. Unless otherwise indicated below, the terms and conditions of the EPL still apply to any source code in the Content and such source code may be obtained at 
+http://www.eclipse.org
+.
+
+
+>>> org.eclipse.recommenders.coordinates.rcp-2.2.0
+
+About
+About This Content
+June 5, 2006
+License
+The Eclipse Foundation makes available all content in this plug-in ("Content"). Unless otherwise indicated below, the Content is provided to you under the terms and conditions of the Eclipse Public Lice

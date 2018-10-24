@@ -1,0 +1,17 @@
+r re-export to another country, of encryption software. BEFORE using any encryption software, please check the country's laws, regulations and policies concerning the import, possession, or use, and re-export of encryption software, to see if this is permitted.
+Encryption Items
+Details of the encryption software in this plug-in are provided to assist in obtaining relevant export control classification and approval. Cryptography in this plug-in has been deemed eligible by the U.S. Government Department of Commerce for export under License Exception Technology Software Unrestricted (TSU) for both object code and source code.
+The plug-in contains the implementation of a keyed-hash message authentication code (HMAC). It also relies on cryptographic algorithms provided by the Java Cryptography Extension (JCE) to support the implementation of the Secure Shell 2 (SSH2) protocol.
+The following Java classes contain encryption items (the plug-in may contain both binary and source code):
+com.jcraft.jsch.jcraft.HMAC
+Java and all Java-based trademarks are trademarks of Oracle Corporation in the United States, other countries, or both.
+SSH is a registered trademark and Secure Shell is a trademark of SSH Communications Security Corp (www.ssh.com)
+
+
+>>> com.sun.el-2.2.0
+
+About
+About This Content
+May 05, 2011
+License
+The Eclipse Foundation makes available all content in this plug-in ("Cont

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html xmlsns:th = "http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <!--NAVEGADOR-->
+        <br>
+        <div id="nav" class="row">
+            <img src="img/wc.png" width="70px" height="50px">
+            <ul class="nav" >
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">INICIO</a>
+                </li>
+                <li class="nav-item">
+                    <div class="dropdown">
+                        <a class="nav-link" data-toggle="dropdown">CATEGORIAS 
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="producto-culo.html">Papel de culo</a></li>
+                            <li><a href="producto-toallita.html">Toallitas</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" th:href="@{/add.html}">AÑADIR PRODUCTO</a>
+                </li>
+            </ul>
+        </div>
+        <!--MAIN-->
+        <br>
+        <div id="main" class="row">
+            <div class="col-md-8">
+                <h1>DESTACADOS</h1>
+                <div class="row">
+                    <ul class="list-unstyled">
+                        <li th:each="producto: ${productos}">
+                            <img src="img/toallitas-bioBaby.png" width="70px" height="50px">
+                            <a th:text=${producto.nombre}>Nombre</a>
+                        </li>
+<!--                         <li> -->
+<!--                             <img src="img/Higienol.jpg" width="70px" height="50px"> -->
+<!--                             <a>Papel de culo marca Higienol</a> -->
+<!--                         </li> -->
+<!--                         <li> -->
+<!--                             <img src="img/toallitas-dodot.jpg" width="250px" height="150px"> -->
+<!--                             <a>Toallitas marca Dodot</a> -->
+<!--                         </li> -->
+<!--                         <li> -->
+<!--                             <img src="img/familia.png" width="70px" height="50px"> -->
+<!--                             <a>Papel de culo marca Familia</a> -->
+<!--                         </li> -->
+<!--                         <li> -->
+<!--                             <img src="img/toallitas-royal.jpg" width="70px" height="50px"> -->
+<!--                             <a>Toallitas marca Royal</a> -->
+<!--                         </li> -->
+                    </ul>
+                </div>
+            </div>
+
+            <div id="novedades" class="col-md-4 border">
+                    <h1>NOVEDADES</h1>
+                    <p>
+                        En el supermercado Dia, hay un descuento del 70% para aquellos clientes que nos sigan en
+                        nuestras redes sociales!
+                    </p>
+                    <p>NO TE PIERDAS ESTA OPORTUNIDAD</p>
+                    <p size="9" class="font-size 10px">Hasta el 10-11 en cualquier supermercado Dia</p>
+                    <div id="facebook">
+                        <img src="img/Facebook_logo_(square).png" width="50px" height="40px">
+                        <a> Culo Limpio</a>
+                    </div>
+                    <br/>
+                    <div id="instagram">
+                        <img src="img/600px-Instagram_logo_2016.svg.png" width="50px" height="40px">
+                        <a> @CuloLimpio_</a>
+                    </div>
+                    <br/>
+                    <div id="twitter">
+                        <img src="img/Logo_de_Twitter.png" width="50px" height="40px">
+                        <a>@CuloLimpio_</a>
+                    </div>
+                    <br>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-12">
+                <footer>Aviso legal | Condiciones de pado | Política de pivacidad</footer>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

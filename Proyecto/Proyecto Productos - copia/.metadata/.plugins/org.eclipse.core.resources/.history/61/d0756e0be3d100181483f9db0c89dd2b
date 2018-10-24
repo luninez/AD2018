@@ -1,0 +1,49 @@
+package com.lbenitez.spring.clases;
+
+import java.util.Objects;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Categoria {
+
+	private Long id;
+	private String nombre;
+	
+	//getters y setters
+	public Long getId() {
+		return id;
+	}
+	public void setId(Long id) {
+		this.id = id;
+	}
+	public String getNombre() {
+		return nombre;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	
+	//constructores
+	public Categoria(Long id, String nombre) {
+		this.id = id;
+		this.nombre = nombre;
+	}
+	
+	public Categoria() {}
+	
+	//metodos sobreescritos
+	@Override
+	public int hashCode() {
+		return Objects.hash(id, nombre);
+	}
+	@Override
+	public boolean equals(Object obj) {
+		return Objects.equals(obj, this);
+	}
+	@Override
+	public String toString() {
+		return "Categoria [id=" + id + ", nombre=" + nombre + "]";
+	}	
+	
+}

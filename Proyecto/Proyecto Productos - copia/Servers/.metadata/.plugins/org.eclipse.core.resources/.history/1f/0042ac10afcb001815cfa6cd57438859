@@ -1,0 +1,5 @@
+package com.lbenitez.spring.service;
+
+public class CategoriaService {
+
+}

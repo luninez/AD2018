@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlsns:th = "http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Quienes somos</title>
+</head>
+<body>
+
+	<h1 th:text = "${name}">QUIENES</h1>
+	
+	<div>
+		<ul class="menu">
+			<li><a th:href="@{/}">INICIO</a></li>
+			<li><a th:href="@{/quienes}">QUIENES SOMOS</a></li>
+			<li><a th:href="@{/que}">QUE HACEMOS</a></li>
+			<li><a th:href="@{/contacto}">CONTACTO</a></li>			
+		</ul>
+	</div>
+
+</body>
+</html>

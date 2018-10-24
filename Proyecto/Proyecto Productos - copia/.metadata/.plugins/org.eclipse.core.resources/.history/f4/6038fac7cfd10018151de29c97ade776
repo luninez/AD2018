@@ -1,0 +1,5 @@
+package com.lbenitez.spring.controllers;
+
+public class ProductoController {
+
+}

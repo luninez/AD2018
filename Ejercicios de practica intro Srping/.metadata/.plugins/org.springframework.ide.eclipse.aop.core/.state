@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="PracticaIniciaJPA"/>
+<aop-project name="PracticandoListado"/>
+<aop-project name="PrimeraConexionWeb"/>
+<aop-project name="PrimerFormularioWeb"/>
+<aop-project name="PrimerProyectoCompleto"/>
+</aop-reference-model>

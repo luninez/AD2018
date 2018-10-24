@@ -1,0 +1,5 @@
+package com.lbenitez.spring.clases;
+
+public class Producto {
+
+}

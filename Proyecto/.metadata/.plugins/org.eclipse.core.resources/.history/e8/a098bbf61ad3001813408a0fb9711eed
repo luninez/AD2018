@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html xmlsns:th = "http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <!--NAVEGADOR-->
+        <br>
+        <div id="nav" class="row">
+            <img src="img/wc.png" width="70px" height="50px">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">INICIO</a>
+                    
+                </li>
+                <li class="nav-item">
+                    <div class="dropdown">
+                        <a class="nav-link" data-toggle="dropdown">CATEGORIAS 
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="producto-culo.html">Papel de culo</a></li>
+                            <li><a href="producto-toallita.html">Toallitas</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="add.html">AÑADIR PRODUCTO</a>
+                </li>
+            </ul>
+        </div>
+        <!--MAIN-->
+        <br>
+        <div id="main" class="row">
+            <div class="col-md-8">
+                <h1>PRODUCTOS - Papel del culo</h1>
+                <div class="center-block">
+                    <ul class="list-unstyled" >
+                        <li>
+                            <a th:text="'Nombre: ' + ${producto.nombre}"></a>
+                            <a th:text="'Precio: ' + ${producto.precio}"></a>
+                            <a th:text="'Descripcion: ' + ${producto.descripcion}"></a>
+                        </li>
+                <!--    <li>
+                            <img src="img/Higienol.jpg" width="70px" height="50px">
+                            <a>Papel de culo marca Higienol</a>
+                        </li>
+                        <li>
+                            <img src="img/Scott.jpg" width="150px" height="150px">
+                            <a>Papel de culo marca Scott</a>
+                        </li>
+                        <li>
+                            <img src="img/familia.png" width="70px" height="50px">
+                            <a>Papel de culo marca Familia</a>
+                        </li>
+                        <li>
+                            <img src="img/PERLA.png" width="70px" height="50px">
+                            <a>Papel de culo marca Perla</a>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+
+            <div id="novedades" class="col-md-4 border">
+                <h1>CARACTERÍSTICAS</h1>
+                <a>
+                    <ul>
+                        <li>Triple hoja</li>
+                        <li>Suave y resistente</li>
+                        <li>Diseños que ayudan a tener una mejor absorción</li>
+                        <li>Dermatológicamente probado</li>
+                    </ul>
+                    <img src="img/filled-star.png" width="30px" height="30px">
+                    <img src="img/filled-star.png" width="30px" height="30px">
+                    <img src="img/filled-star.png" width="30px" height="30px">
+                    <img src="img/filled-star.png" width="30px" height="30px">
+                </a>
+                <br>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-12">
+                <footer>Aviso legal | Condiciones de pado | Política de pivacidad</footer>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

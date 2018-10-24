@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <!--NAVEGADOR-->
+        <br>
+        <div id="nav" class="row">
+            <img src="img/wc.png" width="70px" height="50px">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">INICIO</a>
+                    
+                </li>
+                <li class="nav-item">
+                    <div class="dropdown">
+                            <a class="nav-link" data-toggle="dropdown">CATEGORIAS 
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="producto-culo.html">Papel de culo</a></li>
+                                <li><a href="producto-toallita.html">Toallitas</a></li>
+                            </ul>
+                        </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="add.html">AÑADIR PRODUCTO</a>
+                </li>
+            </ul>
+        </div>
+        <!--MAIN-->
+        <div class="container">
+            <br>
+            <form action="#" method="post" th:action="@{/producto-culo}" th:object="${producto}">
+                <div class="form-group">
+                    <label for="productName">Nombre:</label>
+                    <input th:text="${producto.nombre}" type="text" class="form-control" id="productName" placeholder="nombre del producto" name="nombre del producto">
+                </div>
+                <div class="form-group">
+                    <label for="productPrice">Precio:</label>
+                    <input type="text" th:text="${producto.precio}" class="form-control" id="productPrice" placeholder="precio del producto" name="precio del producto">
+                </div>
+                <div class="form-group">
+                    <label for="productDescription">Descripcion:</label>
+                    <textarea th:text="${producto.descripcion}" class="form-control" rows="5" id="productDescription" placeholder="descripcion del producto" name="descripcion del producto"></textarea>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="">Papel de culo</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="">Toallitas</label>
+                </div>
+                <button type="submit" class="btn btn-default">Añadir</button>
+            </form>
+        </div>
+        <br>
+        <br>
+        <!--FOOTER-->
+        <div class="row">
+            <div class="col-md-12">
+                <footer>Aviso legal | Condiciones de pado | Política de pivacidad</footer>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

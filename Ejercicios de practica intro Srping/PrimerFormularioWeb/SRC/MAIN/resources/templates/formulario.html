@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlsns:th = "http://www.thymeleaf.org"> <!-- ESTO NO PUEDE OLVIDARSE NUNCA -->
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	
+	<form action="#" method="post" th:action="@{/plantillaResultado}" th:object="${producto}">
+		<fieldset>					<!-- <a donde va -->
+			<legend>PRODUCTO</legend>
+				
+				<p>Nombre del producto
+				<input type="text" name="nombreProducto" placeholder="introduce el nombre del producto" size = 60
+						th:field = "*{name}">
+				</p>
+				<p>	Precio
+				<input type="text" name="precio" placeholder="introduce el precio del producto" size = 60
+						th:field = "*{precio}">
+				</p>
+				
+		</fieldset>
+		
+		<br/><br/>
+		<input type="submit">
+		
+	</form>
+</body>
+</html>

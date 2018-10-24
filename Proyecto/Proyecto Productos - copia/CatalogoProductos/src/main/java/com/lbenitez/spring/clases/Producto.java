@@ -1,0 +1,83 @@
+package com.lbenitez.spring.clases;
+
+import java.util.Objects;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
+public class Producto {
+
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	private Long id;
+	
+	private String nombre;
+	private String descripcion;
+	private double precio;
+	//private Categoria categoria;
+	
+	//constructores
+	public Producto(String nombre, String descripcion, double precio) {//, Categoria categoria) {
+		//this.id = id;
+		this.nombre = nombre;
+		this.descripcion = descripcion;
+		this.precio = precio;
+		//this.categoria = categoria;
+	}
+	
+	public Producto() {}
+
+	//getters y setters
+	public Long getId() {
+		return id;
+	}
+	public void setId(Long id) {
+		this.id = id;
+	}
+	public String getNombre() {
+		return nombre;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	public String getDescripcion() {
+		return descripcion;
+	}
+	public void setDescripcion(String descripcion) {
+		this.descripcion = descripcion;
+	}
+	public double getPrecio() {
+		return precio;
+	}
+	public void setPrecio(double precio) {
+		this.precio = precio;
+	}
+	//public Categoria getCategoria() {
+	//	return categoria;
+	//}
+	//public void setCategoria(Categoria categoria) {
+	//	this.categoria = categoria;
+	//}
+	
+	//metodos sobreescritos
+	@Override
+	public int hashCode() {
+		return Objects.hash(id, nombre, descripcion, precio);//, categoria);
+	}
+	@Override
+	public boolean equals(Object obj) {
+		return Objects.equals(obj, this);
+	}
+	
+	@Override
+	public String toString() {
+		return "Producto [id=" + id + ", nombre=" + nombre + ", descripcion=" + descripcion + ", precio=" + precio + "]";
+				//+ ", categoria=" + categoria + "]";
+	}
+	
+	
+	
+}

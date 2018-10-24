@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<h1>Result</h1>
+	
+    <p th:text="'Nombre: ' + ${producto.name}" />
+    <p th:text="'Precio: ' + ${producto.precio}" />
+    <a th:href="@/formulario">Atras</a>
+
+</body>
+</html>

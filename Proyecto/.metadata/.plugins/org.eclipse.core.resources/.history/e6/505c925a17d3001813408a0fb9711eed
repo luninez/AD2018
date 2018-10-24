@@ -1,0 +1,22 @@
+package com.lbenitez.spring.controllers;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import com.lbenitez.spring.service.ProductoService;
+
+@Controller
+public class ProductoController {
+
+	@Autowired
+	private ProductoService service;
+	
+	@GetMapping("/")
+	public String list(Model model) {
+		model.addAttribute("productos", service.findAll());
+		return "index";
+	}
+	
+}

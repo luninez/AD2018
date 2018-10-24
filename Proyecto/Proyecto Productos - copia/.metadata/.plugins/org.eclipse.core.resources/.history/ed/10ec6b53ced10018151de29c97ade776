@@ -1,0 +1,7 @@
+package com.lbenitez.spring.service;
+
+@Service
+public class ProductoService {
+
+	
+}
