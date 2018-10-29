@@ -1,0 +1,5 @@
+Este proyecto consiste en la implementación de un catálogo de productos que estarán organizados en categorías. 
+De cada producto queremos conocer: su id, su nombre, su descripción, su precio y su categoría. Y de cada categoría: 
+su id, su nombre y su categoría padre (que podrá ser nula).
+
+A continuación se enumeran

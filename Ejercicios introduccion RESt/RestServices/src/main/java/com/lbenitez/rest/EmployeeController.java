@@ -1,0 +1,35 @@
+package com.lbenitez.rest;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.beans.factory.annotation.Autowired;
+
+@RestController
+public class EmployeeController {
+
+	@Autowired
+	private EmployeeRepository repository;
+	
+	@GetMapping("/employees")
+	public List<Employee> all() {
+		return repository.findAll();
+	}
+	
+	@PostMapping("/employees")
+	Employee newEmployee(@RequestBody Employee newEmployee) {
+		return repository.save(newEmployee);
+	}
+	
+	@GetMapping("/employees/{id}") //buscaremos un empleado en base a un id
+	public Employee one(@PathVariable Long id) {
+		return repository.findById(id)//.orElse(null); //este es el metodo facil pero devuelve un 200KO, para evitar eso utilizaremos las excepciones
+				.orElseThrow(() -> new EmployeeNotFoundException(id));
+					
+	}
+	
+}

@@ -1,0 +1,5 @@
+
+windows.onload = function(){
+
+    /* EJERCICIO 1:
+     * Realizar una función que permita pasar grados de Farenh

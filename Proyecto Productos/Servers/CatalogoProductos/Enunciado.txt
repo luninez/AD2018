@@ -1,0 +1,17 @@
+Este proyecto consiste en la implementación de un catálogo de productos que estarán organizados en categorías. 
+De cada producto queremos conocer: su id, su nombre, su descripción, su precio y su categoría. Y de cada categoría: 
+su id, su nombre --y su categoría padre (que podrá ser nula).--
+
+A continuación se enumeran algunos requisitos:
+
+-	La aplicación, al acceder a ella, mostrará una página en la que se puedan ver un listado de las categorías y 
+	un listado de los productos.
+-	Si se pulsa sobre un producto, nos permitirá ver la ficha del mismo.
+-	Si se pulsa sobre una categoría, se mostrarán todos los productos de la misma.
+-	Dado el carácter de iniciación del proyecto, no nos preocuparemos de la seguridad, es decir, no será necesario 
+	implementar un login, y todos los usuarios podrán realizar todas las operaciones.
+-	La aplicación también incluirá un menú, que permitirá acceder a las diferentes opciones.
+-	Tanto para las categorías, como para los productos, existirá la posibilidad de realizar las operaciones de crear un 
+	nuevo registro, y editar o borrar uno existente. El alta y la edición se realizará a través de formularios.
+
+	
